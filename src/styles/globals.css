@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0B0B0B;
+  --main-text: #FFFFFF;
+  --emphasis: #E10600;
+  --cards: #1F1F1F;
+  --secondary-text: #B5B5B5;
+  --cta: #25D366;
+  --cards-gradient: #141414;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--main-text);
+  font-family: 'Geist Sans', sans-serif;
+}
+
+header {
+  background: radial-gradient(circle,var(--cards) 80%, var(--cards-gradient) 100%);
+  justify-content: space-between;
+  align-items: center;
+
+  #Body {
+    color: var(--emphasis);
+    font-weight: bold;
+  }
+  #Fit {
+    color: var(--main-text);
+    font-weight: normal;
+  }
+
+  #header-line {
+    background: linear-gradient(90deg,var(--cards) 62%, var(--emphasis) 100%);
+    padding: 0.5px;
+  }
+}
+
+#card-man {
+  background-image: url("/assets/wallpaper-card.png");
+  background-size: cover;
+  background-position: center;
+  justify-content: space-around;
+
+  #card-man-text {
+    h1 {
+      color: var(--main-text);
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+}
+
+#card-line {
+  background: radial-gradient(circle,var(--emphasis) 61%, var(--cards) 68%);
+  padding: 0.5px;
+}
+
+#card-icons {
+  background: var(--main-text);
+  justify-content: center;
+  align-items: center;
+  color: var(--background);
+  gap: 2rem;
+  font-weight: bold;
+  font-size: 0.777rem;
+
+  #space {
+    color: #868585;
+    height: 1rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+     
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+#card-planes {
+  background-image: url("/assets/wallpaper-card.png");
+  background-size: cover;
+  background-position: center;
+}
