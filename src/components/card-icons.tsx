@@ -2,7 +2,7 @@
 function CardIcons() {
     return (
         <div>
-            <div className="flex" id="card-icons">
+            <div className="gap-2 md:flex" id="card-icons">
                 <div>
                     <img src="./assets/treino.png"/>
                     <p>Treinos Personalizados</p>

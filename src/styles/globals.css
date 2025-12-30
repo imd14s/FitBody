@@ -5,6 +5,7 @@
   --main-text: #FFFFFF;
   --emphasis: #E10600;
   --cards: #1F1F1F;
+  --cards-opacity: #1f1f1f8e;
   --secondary-text: #B5B5B5;
   --cta: #25D366;
   --cards-gradient: #141414;
@@ -90,3 +91,33 @@ header {
   background-size: cover;
   background-position: center;
 }
+
+#card-objections {
+  background-image: url("/assets/wallpaper-card.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.objection-item {
+    padding: 2rem;
+    margin: 2rem;
+    background: linear-gradient(101deg,rgba(31, 31, 31, 1) 11%, rgba(31, 31, 31, 0.02) 100%);
+
+    strong {
+      color: var(--emphasis);
+      font-weight: bold;
+      font-size: 1.27rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
